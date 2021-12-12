@@ -2,9 +2,13 @@
 /*
 * Plugin Name: Time To Read
 * Description: Calculates the amount of time to read and inserts at the top of each post/page
-* Version: 1.0
+* Plugin URI: https://github.com/agoldstein9709/Time-To-Read-WP-Plugin
 * Author: Ashley Goldstein
+* Author URI: https://github.com/agoldstein9709/
+* Version: 1.0
 * License: GPL2
+* Requires at least: 4.9
+* Requires PHP: 5.6
 */
 //appends time to read at the beginning of each content
 function aeg_add_html_to_content( $content ) {
